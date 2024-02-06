@@ -1,0 +1,979 @@
+@font-face {
+    font-family: DM;
+    src: url(fonts/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: DMT;
+    src: url(fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf);
+}
+
+body {
+    font-family: DM;
+    margin: auto;
+    width: 90%;
+    background-color: rgb(31, 31, 31);
+}
+
+section {
+    margin: auto;
+    width: 100%;
+    font-family: DM;
+}
+
+/* <!---------------- START NAV----------------------------> */
+nav {
+    font-family: DMT;
+    background-color: rgb(31, 31, 31);
+
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 24px;
+}
+
+.logo {
+    width: 86px;
+    height: 86px;
+}
+
+.list {
+    display: inline-flex;
+    background-color: rgb(31, 31, 31);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+
+}
+
+.h:hover {
+
+    color: rgb(151, 172, 179);
+}
+
+hr {
+    margin-top: -2px;
+
+}
+
+.bouton {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(31, 31, 31);
+    width: 183px;
+    height: 60px;
+
+    cursor: pointer;
+    font-family: DMT;
+    font-size: 24px;
+
+}
+
+.bouton:hover {
+    
+    color: rgb(151, 172, 179);
+    
+}
+
+/* <!---------------- END NAV----------------------------> */
+/* <!---------------- START MaIN----------------------------> */
+
+/* <!-- CLASS MULTIPLES --> */
+.tit {
+    font-family: DMT;
+    font-size: 55px;
+}
+
+.marge {
+    margin-bottom: 30px;
+}
+
+.margeD {
+    margin-right: 20px;
+}
+
+.margeL {
+    margin-left: 20px;
+}
+
+.margeT {
+    margin-top: 20px;
+}
+
+.margeB {
+    margin-bottom: 20px;
+}
+
+/* <!-- END CLASS MULTPILES --> */
+/* <!-- START FIRST SECTION HOME --> */
+.premier {
+    /* width: 1380px; */
+    height: 665px;
+    background: linear-gradient(to right, rgb(151, 172, 179), rgb(251, 217, 185));
+    font-family: DM;
+    font-size: 20px;
+    /* padding: 0px 0 0 0px; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.second {
+    height: 665px;
+    background: linear-gradient(to right, rgb(151, 172, 179), rgb(251, 217, 185));
+    font-family: DM;
+    font-size: 20px;
+    /* padding: 0px 0 0 0px; */
+    display: flex;
+ 
+    position: relative;
+}
+.left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 468px;
+    height: 483px;
+    margin: 40px 0 0 60px;
+
+}
+
+
+/* .right { */
+/* display: flex; */
+/* position: absolute; */
+/* top: 60px; */
+/* right: 0; */
+/* left: 650px; */
+/* width: 100%; */
+.containere{
+    display: flex;
+    width: 840px;
+    height: 600px;
+    position: relative;
+}
+
+.right {
+    background-image: url(img/Group\ 2.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: center;
+    background-size: 750px;
+    width: 111.5%;
+    height: 110%;
+}
+
+.bar {
+
+    display: flex;
+    flex-direction: column;
+    width: 436px;
+    height: 98px;
+}
+
+.buton {
+    display: inline-flex;
+
+
+}
+
+.buy {
+    font-size: bold;
+    background-color: rgb(31, 31, 31);
+    width: 80px;
+    height: 44px;
+    margin-right: 10px;
+    border-radius: 8px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    width: 437px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(206, 206, 206);
+}
+
+.Bsearch {
+    background-color: rgb(255, 255, 255);
+    width: 165px;
+    height: 42px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+
+}
+
+.Search {
+    display: flex;
+    padding: 5px 5px 5px 5px;
+    width: 110px;
+    height: 34px;
+    background-color: rgb(151, 172, 179);
+    border-radius: 6px;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(31, 31, 31);
+}
+
+/* <!------------------ END FIRST SECTION HOME ----------------------> */
+/* <!---------------------- START SECOND SECTION HOME--------------------- --> */
+.fond {
+    background-color: rgb(31, 31, 31);
+
+    /* width: 1321px; */
+    height: 500px;
+    width: 90%;
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    /* margin-left: 20px; */
+    flex-direction: column;
+    align-items: center;
+    
+    border-radius: 14px;
+    width: 440px;
+    height: 448px;
+    padding: 0px 40px 0px 30px;
+    text-align:center;
+ 
+    font-size: 16px;
+
+}
+
+.pub{
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(38, 50, 56);
+}
+
+
+.find{
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(46, 53, 58);
+    border-radius: 10px;
+    width: 150px;
+    height: 45px;
+    margin-top: 25px;
+}
+
+
+/* <!-- ENDSECOND SECTION HOME --> */
+
+
+
+
+/* <!-- START SECTION RENT --> */
+
+.sale {
+    background-color: rgb(255, 255, 255);
+    height: 530px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.rent {
+    background-color: rgb(255, 255, 255);
+    height: 530px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.see {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(31, 31, 31);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grent {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: space-around;
+    width: 214px;
+    height: 450px;
+    /* margin-right: 10px; */
+}
+
+.title {
+    font-family: DMT;
+    font-size: 40px;
+    letter-spacing: 5%;
+}
+
+.stitle {
+    font-family: DM;
+    font-size: 40px;
+}
+
+/* IN THE BOX */
+.boite {
+    background-color: rgb(31, 31, 31);
+    border: 2px solid black;
+    display: flex;
+    margin-right: 20px;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 14px;
+    width: 350px;
+    height: 453px;
+
+
+}
+/* POP UP */
+
+.boitehaut{
+    display: flex;
+    width: 350px;
+    height: 286px;
+    background-color: rgb(31, 31, 31);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.caca{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+/* 
+  
+  .button {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #06D85F;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  .button:hover {
+    background: #06D85F;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: DM;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+   */
+  
+/* END POP UP */
+.photo {
+    background-image: url(img/appartun/nouveau-chantier1-1.jpg);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    background-size: 410px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+
+   
+    
+}
+a {
+    text-decoration: none;
+  }
+  
+
+.photo:hover{
+
+     background-image: url(img/apartmentun/nouveau-chantier6.jpg);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    background-size: 415px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.photoun:hover{
+    background-image: url(img/apartmentun/apres-duplex-300m2-3.jpg);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    background-size: 410px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.photodeux:hover{
+    background-image: url(img/apartmentun/appartement-rouen-quartier-gare-4.jpeg);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    background-size: 410px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.coeur{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 10px 0px 0px;
+    
+}
+
+.rouge{
+    width: 66px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-weight: bold;
+    border-top-right-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(193, 41, 46);
+    
+}
+
+.photoun {
+    background-image: url(img/apartmentun/apres-duplex-300m2-2-800x480.jpg);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-size: 455px;
+    width: 100%;
+    
+}
+
+
+.photodeux {
+    background-image: url(img/apartmentun/appartement-rouen-quartier-gare-1.jpeg);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: 430px;
+    width: 100%;
+  
+}
+
+.phototrois {
+    background-image: url(img/appartun/33696_00-2023-05-17-1523.jpg);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: 430px;
+    width: 100%;
+  
+}
+.photoquatre {
+    background-image: url(img/appartun/35162_00-2023-05-17-1529.jpg);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: 430px;
+    width: 100%;
+  
+}
+.photocinq {
+    background-image: url(img/appartun/38609_02-2023-12-16-0212.jpg);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: 430px;
+    width: 100%;
+  
+}
+.phototrois:hover{
+    background-image: url(img/appartun/33696_01-2023-05-17-1523.jpg);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    background-size: 410px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.photoquatre:hover{
+    background-image: url(img/appartun/35162_01-2023-05-17-1529.jpg);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    background-size: 410px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.photocinq:hover{
+    background-image: url(img/appartun/38609_03-2023-12-16-0212.jpg);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    background-size: 410px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* IN BOX "bas" */
+.bas {
+    width: 350px;
+    height: 167px;
+    color: #ffffff;
+    font-family: DM;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 5px 5px 5px 5px; */
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    /* margin-top: 10px; */
+    
+  
+ 
+    
+   
+}
+
+.nom{
+    /* margin-bottom: 5px; */
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+.cont{
+    display: flex;
+    
+    margin-top: 30px;
+    background-color: rgb(151, 172, 179);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 60px;
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 260px;
+}
+.bold{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.t{
+    font-family: DMT;
+    font-size: 24px;
+
+}
+/* END IN THE BOX */
+
+
+
+
+
+
+/* <!-- END SECTION RENT --> */
+
+
+/* <!-- START SECTION SOURCING --> */
+.sourcing {
+    display: flex;
+    background-color: rgb(31, 31, 31);
+    height: 900px;
+    justify-content: center;
+    color: aliceblue;
+    flex-direction: column;
+
+
+}
+
+.direction {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    font-family: DMT;
+    font-size: 48px;
+    letter-spacing: 10px;
+
+}
+
+.disposition {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.container {
+    background-color: rgb(31, 31, 31);
+    width: 280px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.rond {
+    width: 122px;
+    height: 122px;
+    border-radius: 100%;
+    background-color: rgb(151, 172, 179);
+    margin-bottom: 50px;
+}
+
+.house {
+    background-image: url(img/icone/185038_home_house_icon.svg);
+    background-size: 71px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.im {
+    background-image: url(img/icone/728922_apartment_building_city_architecture_construction_icon.svg);
+    background-size: 72px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tel {
+    background-image: url(img/icone/6599592_e-book_e-learning_education_learning_online_icon.svg);
+    background-size: 86px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.titre {
+    font-family: DMT;
+    letter-spacing: 5%;
+    font-size: 36px;
+
+}
+
+.stitre {
+    font-family: DM;
+    font-size: 20px;
+    margin-top: 30px;
+    width: 280px;
+
+
+}
+
+/* <!-- END SECTION SOURCING --> */
+
+
+
+/* <!------------------------ START CONTACT-----------------------------------> */
+
+.contact {
+    height: 750px;
+    width: 100%;
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    /* position: relative; */
+}
+
+form {
+    /* z-index: 20;
+    position: relative; */
+    width: 300px;
+    font-family: DM;
+    color: #ffffff;
+
+
+}
+
+form div {
+    font-family: DMT;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+.contactimg {
+    background-image: url(img/3d-rendering-isometric-fdgdf\ 1.svg);
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    background-position: center;
+    background-size: 700px;
+    width: 90%;
+    height: 600px;
+}
+
+/* <!---------------- END CONTACT----------------------------> */
+
+/* <!---------------- START FOOTER----------------------------> */
+footer {
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    color: rgb(255, 255, 255);
+    height: 180px;
+    /* padding: 50px 150px 40px 150px; */
+
+}
+
+.logoun {
+    width: 130px;
+    height: 130px;
+}
+
+.gauchefooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.listedeux {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    cursor: pointer;
+    margin-top: 20px;
+
+
+
+}
+
+.liste {
+    display: flex;
+    font-size: bold;
+    letter-spacing: 5%;
+    flex-direction: column;
+    font-size: 14px;
+    cursor: pointer;
+
+
+
+}
+
+article ol {
+    display: inline-flex;
+    width: 250px;
+
+}
+
+
+article ol:hover {
+    color: rgb(151, 172, 179);
+}
+
+.reseau {
+    display: flex;
+    width: 160px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#fb path {
+    fill: #ffffff;
+    /* Couleur de base choisi dans html donc là blanc mais on puet choisir ici et modifier depuis le css */
+}
+
+#fb:hover path {
+    fill: url(#a);
+    /* Couleur "habituelle" lors du survol */
+}
+
+
+
+
+
+#yt path {
+    fill: #ffffff;
+
+}
+
+#yt:hover path {
+    fill: url(#b);
+
+}
+
+
+
+
+
+#tw path {
+    fill: #ffffff;
+
+}
+
+#tw:hover path {
+    fill: url(#c);
+
+}
+
+#p path {
+    fill: #ffffff;
+
+}
+
+#p:hover path {
+    fill: url(#d);
+
+}
+
+#insta path {
+    fill: #ffffff;
+
+}
+
+#insta:hover path {
+    fill: url(#e);
+
+}
+
+
+
+
+.finfooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+/* .lettre{
+letter-spacing: 5px;
+font-size: 12px;
+display: flex;
+justify-content: flex-end;
+} */
+
+.al {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+/* #monsvg{
+stroke: rgb(255, 255, 255);
+} */
+
+.couleur {
+    color: rgb(151, 172, 179);
+}
+
+/* <!---------------- START FOOTER----------------------------> */
