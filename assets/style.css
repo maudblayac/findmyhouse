@@ -160,9 +160,9 @@ hr {
     background-image: url(img/Group\ 2.svg);
     background-repeat: no-repeat;
     position: absolute;
-    background-position: center;
+    background-position: right;
     background-size: 750px;
-    width: 111.5%;
+    width: 100.5%;
     height: 110%;
 }
 
@@ -747,14 +747,40 @@ a {
 
 .contact {
     height: 750px;
-    width: 100%;
     display: flex;
-    padding-left: 200px;
-    padding-right: 200px;
-    align-items: center;
+    /* margin-left: 200px; */
+    /* padding-right: 200px; */
+    /* align-items: center; */
     /* position: relative; */
 }
+.lefte {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 468px;
+    height: 483px;
+    margin: 40px 0 0 60px;
 
+}
+.righte {
+    position: relative;
+    display: flex;
+    width: 468px;
+    height: 483px;
+   
+
+}
+
+.contactimg {
+    background-image: url(img/3d-rendering-isometric-fdgdf\ 1.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: center;
+    background-size: 700px;
+    width: 900px;
+    height: 650px;
+}
 form {
     /* z-index: 20;
     position: relative; */
@@ -812,15 +838,6 @@ input[type="submit"]:hover {
 }
 
 
-.contactimg {
-    background-image: url(img/3d-rendering-isometric-fdgdf\ 1.svg);
-    background-repeat: no-repeat;
-    /* position: absolute; */
-    background-position: center;
-    background-size: 700px;
-    width: 90%;
-    height: 600px;
-}
 
 /* <!---------------- END CONTACT----------------------------> */
 
